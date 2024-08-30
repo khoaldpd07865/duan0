@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    color: blue;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 1.5vw;
+}
+
+.menu {
+    background-color: #000;
+    color: #ccc;
+    border-radius: 5px;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+.boxcontent {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.boxcontent2 {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #ccc;
+    border-radius: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    height: 300px;
+}
+
+.boxsp {
+    cursor: pointer;
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxsp:hover {
+    scale: 1.02;
+    transition: all linear 0.5s;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.boxsp .img {
+    min-height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxsp .img a{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.boxsp p {
+    font-size: 1.2vw;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.boxsp a {
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1vw;
+    text-align: center;
+    padding: 12px 24px;
+}
+
+.boxsp .boxsp-link {
+    float: left;
+    margin-top: -10px;
+}
+
+.boxsp p:hover, 
+.boxsp a:hover {
+    color: rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.img img {
+    width: 70%;
+    height: auto;
+}
+
+.menu ul {
+    padding: 0 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color:#fff;
+}
+
+/* Box taikhoan */
+.formtaikhoan {
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.frmcontent input[type="text"] {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+.formtaikhoan li a {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+
+.formtaikhoan li a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* menu dọc */
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: #ccc;
+}
+
+.searchbox input {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* top yêu thích */
+.top10 img {
+    width: 18%;
+    height: auto;
+    float: left;
+    margin-right: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.top10 a {
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 3px;
+    width: 90%;
+    font-size: 0.8vw;
+    text-decoration: none;
+    /* display: -webkit-box; */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.top10 a:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* Admin */
+.headeradmin {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px #ccc solid;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.headeradmin h1 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.frmtitle {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    color: #000;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.frmtitle h1 {
+    font-weight: 500;
+}
+
+.frmcontent {
+    padding: 20px 0;
+}
+.frmdsloai, .cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai, .cart table th {
+    padding: 8px;
+    background-color: #ccc;
+}
+
+/* .frmdsloai table th:nth-child(2) {
+    width: 30%;
+    background-color: #ccc;
+}
+
+.frmdsloai table th:nth-child(3) {
+    width: 40%;
+    background-color: #ccc;
+}
+
+.frmdsloai table th:nth-child(4) {
+    width: 20%;
+    background-color: #ccc;
+} */
+
+.frmdsloai, .cart table td {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+/* Slideshow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* End Slideshow */
+
+.spct {
+    text-align: center;
+}
+
+.spct img {
+    width: 25%;
+}

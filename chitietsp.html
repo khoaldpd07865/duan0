@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .image{
+            width: 40%;
+            margin: 10px auto;
+        }
+        .image>img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .container ul{
+            list-style: circle;
+            margin-left: 40px;
+        }
+        .comment{
+            margin-top: 20px;
+            border: 1px solid gray;
+        }
+        .detail-title>h1{
+            background-color: gainsboro;
+            border-radius: 3px;
+            line-height: 46px;
+            color: rgb(92, 81, 81);
+            padding-left: 15px;
+            box-sizing: border-box;
+        }
+        .comment-opinion{
+            display: flex;
+            justify-content: space-between;            
+        }
+        .comment-opinion ul:nth-of-type(2){
+            list-style: none;
+        }
+        .comment-opinion ul{
+            margin: 20px;
+        }
+        .form-comment{
+            height: 60px;
+            background-color: gainsboro;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            padding: 0 15px;
+        }
+        .form-comment>form{
+            display: flex;
+            height: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .form-comment input:not(input[type="submit"]){
+            flex: 0 0 85%;
+            height: 25px;
+        }
+        .form-comment input[type="submit"]{
+            flex: 0 0 10%;
+            height: 25px;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .commodity{
+            margin-top: 20px;
+            border: 1px solid gray;
+        }
+        .commodity ul li{
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="./img/nchoa1.jpg" alt="">
+        </div>
+        <ul>
+            <li>Mã HH: 1001</li>
+            <li>Tên HH: Versace Pour Homme</li>
+            <li>Đơn giá : 300.000đ</li>
+            <li>Giảm giá: 0%</li>
+        </ul>
+        <div class="content">
+            Nước hoa Versace Pour Homme được kết hợp để trở thành cặp đôi quyến rũ cùng với Versace Pour Femme, cặp đổi này là một gợi ý cho bạn sự lựa chọn hoàn hảo dành cho bản thân và “ai kia”. Nếu Pour Femme quyến rũ, sâu lắng thì Pour Homme đầy mạnh mẽ và đam mê.
+
+            Khởi đầu với tinh dầu cam ngọt dịu, cam bergamot đầy hứng khởi và hương chanh tươi mát. Tiếp nối là tầng hương nồng nàn với hoa lan dạ hương, hoa Clary Sage, gỗ tuyết tùng và phong lữ. Tầng hương cuối êm dịu với đậu Tonka, xạ hương và hổ phách. Nước hoa Versace Pour Homme đã được đưa ra trong năm 2008 bởi Alberto Morillas.
+        </div>
+    <div class="comment">
+        <div class="detail-title">
+            <h1>Bình luận</h1>
+        </div>
+        <div class="comment-opinion">
+            <ul>
+                <li>Sản phẩm nổi bật</li>
+                <li>Nước hoa thơm, giữ mùi lâu</li>
+            </ul>
+            <ul>
+                <li>Hoa: 2020-02-19</li>
+                <li>Hùng: 2021-08-11</li>
+            </ul>
+        </div>
+        <div class="form-comment">
+            <form action="">
+                <input type="text" name="comment" id="">
+                <input type="submit" value="Gửi" name="gui">
+            </form>
+        </div>
+        
+    </div>
+    <div class="commodity">
+        <div class="detail-title">
+            <h1>Hàng cùng loại</h1>
+        </div>
+        <div class="commodity-same">
+            <ul>
+                <li>Versace Eros For Men EDT</li>
+                <li>Tom Ford Ombre Leather</li>
+                <li>Tom Ford Black Orchid</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
